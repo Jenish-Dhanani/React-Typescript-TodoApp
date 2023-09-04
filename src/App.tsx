@@ -6,7 +6,7 @@ import TodoFilterNav from './components/TodoFilterNav';
 function App() {
   return (
     <section className="main-wrapper">
-      <h1>Tods App With Typescript</h1>
+      <h1>To-Do App With Typescript</h1>
       <TodoFilterNav />
       <CreateTodo />
       <ListTodo />
