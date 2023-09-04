@@ -1,27 +1,18 @@
-# React + TypeScript + Vite
+# Todo App with React, TypeScript, Context API, and Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This project is a Todo application developed using React, TypeScript, the Context API, and the Vite build tool. It offers a user-friendly and responsive interface for managing tasks efficiently. The app includes features for creating, marking as complete, deleting, and filtering tasks based on their status. Additionally, it employs local storage to persist task data, ensuring that your tasks are retained even if you reload the application.
 
-Currently, two official plugins are available:
+## Key Features
+- **Task Management:** Create new tasks, mark tasks as complete, and delete tasks with ease.
+- **Status Filtering:** Filter tasks based on their status, including All, Active, and Completed tasks.
+- **Local Storage Persistence:** Task data is stored locally in the browser, allowing you to reload the app and maintain your task list.
+- **Responsive Design:** The application features a beautiful and responsive design, ensuring a seamless user experience across various devices and screen sizes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Whether you're looking to keep track of your daily tasks, manage projects, or simply stay organized, this Todo app provides a reliable and visually appealing solution. Built with modern web technologies, it showcases the power and flexibility of React, TypeScript, Context API, and Vite.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Screenshots
+![image](https://github.com/Jenish-Dhanani/React-Typescript-TodoApp/assets/99007146/9e008746-fca5-44ba-b52f-0a478e15fff7)
+![image](https://github.com/Jenish-Dhanani/React-Typescript-TodoApp/assets/99007146/6d05a9fd-6d57-40d2-a578-a925418a94f4)
+![image](https://github.com/Jenish-Dhanani/React-Typescript-TodoApp/assets/99007146/ec5bea2b-3b0c-401b-a191-dabd677593d7)
+![image](https://github.com/Jenish-Dhanani/React-Typescript-TodoApp/assets/99007146/24f0466b-272c-4122-a825-4411993c5849)
